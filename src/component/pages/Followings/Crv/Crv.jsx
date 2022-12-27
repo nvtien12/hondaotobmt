@@ -4,7 +4,7 @@ import Navbar from './Navbarsp';
 import './crv.css';
 import Crvnt from './Crvnt/Crvnt';
 import Crvnoi from './Crvnoi/Crvnoi';
-
+import Safe from './Crvsafe/Safe';
 
 export default function Crv() {
   return (
@@ -46,6 +46,7 @@ export default function Crv() {
             </Carousel>
         <Crvnt/>
         <Crvnoi/>
+        <Safe/>
     </div>
   );
 }
