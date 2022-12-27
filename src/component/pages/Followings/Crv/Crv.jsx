@@ -5,6 +5,10 @@ import './crv.css';
 import Crvnt from './Crvnt/Crvnt';
 import Crvnoi from './Crvnoi/Crvnoi';
 import Safe from './Crvsafe/Safe';
+import Engine from './Crvvanhanh/Engine';
+import Pk from './CrvPK/Pk';
+import Specifications from './Specifications/Specifications';
+import Footers from '../../Footers';
 
 export default function Crv() {
   return (
@@ -46,7 +50,11 @@ export default function Crv() {
             </Carousel>
         <Crvnt/>
         <Crvnoi/>
+        <Engine/>
         <Safe/>
+        <Pk/>
+        <Specifications/>
+        <Footers/>
     </div>
   );
 }

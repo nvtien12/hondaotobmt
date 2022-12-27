@@ -1,14 +1,12 @@
 
-.box_pro_engine {
-    float: left;
+.box_pro_safe {
+    float: left; 
 }
-.engine {
-    width: 88%;
-    padding: 10px 20px;
 
-}
+
+
 @media (min-width: 62em){
-    .img-engine{
+    .card-safe{
         text-align: left;
         margin-left: 40rem;
         margin-top: 40px;

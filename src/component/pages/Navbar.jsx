@@ -50,7 +50,7 @@ export default function Navbar() {
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="./following/crv">
                       Honda Crv
                     </a>
                   </li>

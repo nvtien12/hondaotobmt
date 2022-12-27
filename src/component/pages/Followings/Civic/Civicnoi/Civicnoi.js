@@ -1,17 +1,24 @@
 import React from 'react';
-import './pk.css';
+import './crvnoi.scss';
 
-export default function Pk() {
+export default function Crvnoi() {
     return (
-        <div className="box_pro_pk" id="pk">
+        <div className="box_pro_noi_that" id="noithat">
            <div className="card text-bg-dark">
-                <img src="../assets/crv/operate.jpg" className="card-img" alt="..." />
-                <div className="card-img-overlay">
-                    <div className="img-pk">
-                        <h1>PHỤ KIỆN CHÍNH HÃNG</h1>
-                    </div>
-                </div>
-                </div>
+            <img src="../assets/crv/space-interior.jpg" className="card-img" alt="..."/>
+            <div className="card-img-overlay" >
+              <div className='overlay-card'>
+                <h3 className="card-title">NỘI THẤT</h3>
+                <h1 className='text-card'>NÂNG TẦM KHÔNG GIAN
+                    <br />
+                    ĐÁNH THỨC MỌI CẢM GIÁC
+                </h1>
+              
+                <p className="card-text">Không gian xe rộng rãi thoải mái <br/>
+                để mọi trải nghiệm hành trình luôn tuyệt vời.</p>
+            </div>    
+            </div>
+            </div>
             <div className="box_content_pro">
                 <figure className="table">
                     <table>
@@ -22,15 +29,10 @@ export default function Pk() {
                                         className="image"
                                         data-fancybox="gallery_content"
                                         data-caption="Honda Accord - "
-                                        href="../assets/crv/foot-support.png"
+                                        href="../assets/crv/seven-seats.jpg"
                                     >
-                                        <img
-                                            src="../assets/crv/foot-support.png"
-                                            alt=""
-                                        />
-                                        <figcaption>
-                                            <p>Nẹp bước chân phát sáng.</p>
-                                        </figcaption>
+                                        <img src="../assets/crv/seven-seats.jpg" alt='' />
+                                        <figcaption>Chế độ 7 chỗ</figcaption>
                                     </figure>
                                 </td>
                                 <td>
@@ -38,12 +40,10 @@ export default function Pk() {
                                         className="image"
                                         data-fancybox="gallery_content"
                                         data-caption="Honda Accord - "
-                                        href="../assets/crv/foot-support.png"
+                                        href="../assets/crv/five-seats.jpg"
                                     >
-                                        <img src="../assets/crv/foot-support.png" alt="" />
-                                        <figcaption>
-                                            <p>Thanh đỡ bước chân. </p>
-                                        </figcaption>
+                                        <img src="../assets/crv/five-seats.jpg" alt='' />
+                                        <figcaption>Chế độ 5 chỗ</figcaption>
                                     </figure>
                                 </td>
                                 <td>
@@ -51,15 +51,13 @@ export default function Pk() {
                                         className="image"
                                         data-fancybox="gallery_content"
                                         data-caption="Honda Accord - "
-                                        href="../assets/crv/car-lights.jpg"
+                                        href="../assets/crv/long-mode.jpg"
                                     >
-                                        <img src="../assets/crv/car-lights.jpg" alt="" />
-                                        <figcaption>
-                                            <p>Đèn sàn xe độc đáo. </p>
-                                        </figcaption>
+                                        <img src="../assets/crv/long-mode.jpg" alt='' />
+                                        <figcaption>Chế độ vật dài</figcaption>
                                     </figure>
                                 </td>
-                            </tr>
+                                </tr>
                         </tbody>
                     </table>
                 </figure>
@@ -72,12 +70,10 @@ export default function Pk() {
                                         className="image"
                                         data-fancybox="gallery_content"
                                         data-caption="Honda Accord - "
-                                        href="../assets/crv/chrome-tail-brace.png"
+                                        href="../assets/crv/handy-mode.jpg"
                                     >
-                                        <img src="../assets/crv/chrome-tail-brace.png" alt="" />
-                                        <figcaption>
-                                            <p>Nẹp đuôi xe mạ crôm. </p>
-                                        </figcaption>
+                                        <img src="../assets/crv/handy-mode.jpg" alt='' />
+                                        <figcaption>Chế độ tiện dụng</figcaption>
                                     </figure>
                                 </td>
                                 <td>
@@ -85,12 +81,10 @@ export default function Pk() {
                                         className="image"
                                         data-fancybox="gallery_content"
                                         data-caption="Honda Accord - "
-                                        href="../assets/crv/cover-trunk.jpg"
+                                        href="../assets/crv/giai-tri-1.png"
                                     >
-                                        <img src="../assets/crv/cover-trunk.jpg" alt="" />
-                                        <figcaption>
-                                            <p>Trải cốp sau. </p>
-                                        </figcaption>
+                                        <img src="../assets/crv/giai-tri-1.png" alt='' />
+                                        <figcaption>Màn hình cảm ứng 7 inch độ phân giải cao. Cho phép kết nối wifi và đồng bộ Smartphone</figcaption>
                                     </figure>
                                 </td>
                                 <td>
@@ -98,16 +92,24 @@ export default function Pk() {
                                         className="image"
                                         data-fancybox="gallery_content"
                                         data-caption="Honda Accord - "
-                                        href="../assets/crv/car-tarpaulin.jpg"
+                                        href="../assets/crv/lanewatch.png"
+                                    
                                     >
-                                        <img src="../assets/crv/car-tarpaulin.jpg" alt="" />
+                                        <img
+                                            src="../assets/crv/lanewatch.png"
+                                            alt=''
+                                        />
                                         <figcaption>
-                                            <p>Bạt phủ xe. </p>
+                                       Chế độ quan sát làn đường (Camera Lanewatch) giúp cải thiện tầm nhìn
                                         </figcaption>
                                     </figure>
                                 </td>
-                            </tr>
+                                </tr>
                         </tbody>
+                    </table>
+                </figure>
+                <figure className="table">
+                    <table>
                         <tbody>
                             <tr>
                                 <td>
@@ -115,12 +117,10 @@ export default function Pk() {
                                         className="image"
                                         data-fancybox="gallery_content"
                                         data-caption="Honda Accord - "
-                                        href="../assets/crv/handle-protection-plate.png"
+                                        href="../assets/crv/cua-so-troi-pano.png"
                                     >
-                                        <img src="../assets/crv/handle-protection-plate.png" alt="" />
-                                        <figcaption>
-                                            <p>Tấm bảo vệ tay nắm cửa. </p>
-                                        </figcaption>
+                                        <img src="../assets/crv/cua-so-troi-pano.png" alt='' />
+                                        <figcaption>Cửa sổ trời Panorama toàn cảnh</figcaption>
                                     </figure>
                                 </td>
                                 <td>
@@ -128,12 +128,10 @@ export default function Pk() {
                                         className="image"
                                         data-fancybox="gallery_content"
                                         data-caption="Honda Accord - "
-                                        href="../assets/crv/rain-cover.jpg"
+                                        href="../assets/crv/sac-khong-day.png"
                                     >
-                                        <img src="../assets/crv/rain-cover.jpg" alt="" />
-                                        <figcaption>
-                                            <p>Viền che mưa. </p>
-                                        </figcaption>
+                                        <img src="../assets/crv/sac-khong-day.png" alt='' />
+                                        <figcaption>Sạc không dây tiện ích</figcaption>
                                     </figure>
                                 </td>
                                 <td>
@@ -141,15 +139,14 @@ export default function Pk() {
                                         className="image"
                                         data-fancybox="gallery_content"
                                         data-caption="Honda Accord - "
-                                        href="../assets/crv/floor-mats.png"
+                                        href="../assets/crv/nut-kd.jpg"
                                     >
-                                        <img src="../assets/crv/floor-mats.png" alt="" />
-                                        <figcaption>
-                                            <p>Thảm trải sàn. </p>
-                                        </figcaption>
+                                        <img src="../assets/crv/nut-kd.jpg" alt='' />
+                                        <figcaption>Chế độ khởi động bằng nút bấm</figcaption>
                                     </figure>
                                 </td>
-                            </tr>
+                                </tr>
+                               
                         </tbody>
                     </table>
                 </figure>
