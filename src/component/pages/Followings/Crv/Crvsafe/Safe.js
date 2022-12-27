@@ -1,41 +1,47 @@
-import React  from 'react';
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './safe.css';
 
 export default function Safe() {
     return (
         <div className="box_pro_safe" id="antoan">
-        <Carousel id="thongdiep">
-        <Carousel.Item>
-            <div className="card text-bg-dark">
-            <img src="../assets/crv/wake-up-senses.jpg" className="card-img" alt="..."/>
-            <div className="card-img-overlay">
-              <div className='text'>
-                <h3 className="card-title">THÔNG ĐIỆP</h3>
-                <h4 className='text-card'>KHAI PHÁ
-                    <br />
-                    GIÁC QUAN THỨ SÁU
-                </h4>
-              
-                <p className="card-text">Khi giới hạn không thể ngăn lối thành công,
-                    cùng Honda CR-V <br />đánh thức
-                    và cảm nhận mọi giác quan trong bạn <br />
-                    để chạm đến đỉnh vinh quang.</p>
-                    </div>    
-            </div>
-            </div>
-            </Carousel.Item>
-            <Carousel.Item>
-            <div className="card text-bg-dark">
-            <img src="../assets/crv/wake-up-senses-two.jpg" className="card-img" alt="..."/>
-            <div className="card-img-overlay" >
-                <div className='text-img'>
-                <h3 className="card-title">THÔNG ĐIỆP</h3>
-                <p className="card-text">Cuốn hút và mạnh mẽ trong từng chuyển động với động cơ 1.5L VTEC TURBO, tiện nghi và cao cấp với <br />  thiết kế 7 chỗ, kết hợp cùng với Hệ thống công nghệ hỗ trợ lái xe an toàn tiên tiến Honda SENSING,<br />  Honda CR-V khai phóng mọi giác quan của bạn, để bạn tự tin tận hưởng trên mọi hành trình.</p>
-                </div> 
-            </div>
-            </div>
-            </Carousel.Item>
+            <Carousel>
+                <Carousel.Item>
+                    <div className="card text-bg-dark">
+                        <img src="../assets/crv/active-safety.jpg" className="card-img" alt="..." />
+                        <div className="card-img-overlay">
+                            <div className="card-safe">
+                                <h3 className="card-title">AN TOÀN</h3>
+                                <h2 className="text-card">
+                                    CÔNG NGHỆ AN TOÀN
+                                    <br />
+                                    Honda SENSING
+                                </h2>
+
+                                <p className="card-text">
+                                    Hệ thống công nghệ hỗ trợ lái xe an toàn tiên tiến Honda SENSING hỗ trợ và bảo vệ
+                                    bạn tối đa trong từng khoảnh khắc, <br /> để bạn an tâm vững tay lái trên mọi cung
+                                    đường.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="card text-bg-dark">
+                        <img src="../assets/crv/secure-one.jpg" className="card-img" alt="..." />
+                        <div className="card-img-overlay">
+                            <div className="card-safe">
+                                <h3 className="card-title">AN TOÀN</h3>
+                                <h2 className="text-card">TRANG BỊ AN TOÀN KHÁC</h2>
+                                <p className="card-text">
+                                    Với các công nghệ an toàn chủ động và bị động tiên tiến, <br /> Honda CR-V đảm bảo
+                                    sự thư thái của bạn trên mọi thử thách.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </Carousel.Item>
             </Carousel>
             <div className="box_content_pro">
                 <figure className="table">
@@ -46,16 +52,16 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
-                                        href="../assets/va_cham.png"
+                                        data-caption="Honda Crv - "
+                                        href="../assets/crv/brake-system.jpg"
                                     >
-                                        <img src="../assets/va_cham.png" alt="" />
+                                        <img src="../assets/crv/brake-system.jpg" alt="" />
                                         <figcaption>
                                             <h5>Hệ thống phanh giảm thiểu va chạm CMBS</h5>
                                             <p>
                                                 Cảnh báo người lái khi phát hiện vật cản phía trước. Ngoài ra, trong
                                                 trường hợp người lái không thể tránh khỏi va chạm, hệ thống sẽ tự động
-                                                phanh để giảm thiểu thiệt hại
+                                                phanh để giảm thiểu thiệt hại.
                                             </p>
                                         </figcaption>
                                     </figure>
@@ -64,15 +70,15 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
-                                        href="../assets/lkas.png"
+                                        data-caption="Honda Crv - "
+                                        href="../assets/crv/lane-keep-assist.jpg"
                                     >
-                                        <img src="../assets/lkas.png" alt="" />
+                                        <img src="../assets/crv/lane-keep-assist.jpg" alt="" />
                                         <figcaption>
                                             <h5>Hệ thống hỗ trợ giữ làn đường LKAS</h5>
                                             <p>
-                                                Hỗ trợ đánh lái để giữ cho xe luôn đi ở giữa làn đường đồng thời hiển
-                                                thị cảnh báo khi xe đi lệch khỏi làn đườngchắn
+                                                Hỗ trợ đánh lái để giữ cho xe luôn đi ở giữa làn đường, đồng thời hiển
+                                                thị cảnh báo trong trường hợp xe đi chệch khỏi làn đường.
                                             </p>
                                         </figcaption>
                                     </figure>
@@ -81,15 +87,15 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
-                                        href="../assets/rdm.png"
+                                        data-caption="Honda Crv - "
+                                        href="../assets/crv/minimize-lane-departure.jpg"
                                     >
-                                        <img src="../assets/rdm.png" alt="" />
+                                        <img src="../assets/crv/minimize-lane-departure.jpg" alt="" />
                                         <figcaption>
                                             <h5>Hệ thống giảm thiểu lệch làn đường RDM</h5>
                                             <p>
                                                 Cảnh báo và hỗ trợ người lái đi đúng làn đường khi hệ thống phát hiện xe
-                                                di chuyển quá gần hoặc đè lên vạch kẻ phân cách làn đường
+                                                di chuyển quá gần hoặc đè lên vạch kẻ phân cách các làn đường.
                                             </p>
                                         </figcaption>
                                     </figure>
@@ -106,31 +112,33 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
-                                        href="../assets/ahb.png"
+                                        data-caption="Honda Crv - "
+                                        href="../assets//crv/spotlight.png"
                                     >
-                                        <img src="../assets/ahb.png" alt="" />
+                                        <img src="../assets//crv/spotlight.png" alt="" />
                                         <figcaption>
                                             <h5>Hệ thống đèn pha thích ứng tự động AHB</h5>
                                             <p>
                                                 Trong điều kiện lái xe vào ban đêm, hệ thống tự động chuyển đổi giữa đèn
-                                                chiếu gần và đèn chiếu xa tuỳ thuộc vào tình trạng giao thông
+                                                chiếu gần và đèn chiếu xa tùy thuộc vào tình trạng giao thông.
                                             </p>
                                         </figcaption>
                                     </figure>
                                 </td>
+                                
+                                  
                                 <td>
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
-                                        href="../assets/acc.png"
+                                        data-caption="Honda Crv - "
+                                        href="../assets/crv/cruise-control.jpg"
                                     >
-                                        <img src="../assets/acc.png" alt="" />
+                                        <img src="../assets/crv/cruise-control.jpg" alt="" />
                                         <figcaption>
                                             <h5>
                                                 Hệ thống kiểm soát hành trình thích ứng bao gồm dải tốc độ thấp (ACC
-                                                WITH LFS)
+                                                with LSF)
                                             </h5>
                                             <p>
                                                 Hỗ trợ duy trì khoảng cách với phương tiện phía trước khi lái xe trên
@@ -152,24 +160,14 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
-                                        href="../assets/canh_bao_chong_buon_ngu.jpg"
+                                        data-caption="Honda Crv - "
+                                        href="../assets/crv/miror_screen.jpg"
                                     >
-                                        <img src="../assets/canh_bao_chong_buon_ngu.jpg" alt="" />
-                                        <figcaption>Hệ thống cảnh báo chống buồn ngủ</figcaption>
-                                    </figure>
-                                </td>
-                                <td>
-                                    <figure
-                                        className="image"
-                                        data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
-                                        href="../assets/quan_sat_lan_duong_3.jpg"
-                                    >
-                                        <img src="../assets/quan_sat_lan_duong_3.jpg" alt="" />
+                                        <img src="../assets/crv/miror_screen.jpg" alt="" />
                                         <figcaption>
-                                            Chế độ quan sát làn đường qua hệ thống camera đặt ở gương chiếu hậu giúp
-                                            quan sát và cảnh báo khoảng cách an toàn với phương tiện gần nhất
+                                            Chế độ quan sát làn đường (LaneWatch) qua hệ thống camera đặt ở gương chiếu
+                                            hậu giúp quan sát và cảnh báo khoảng cách an toàn với phương tiện gần nhất
+                                            (L/G).
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -177,11 +175,30 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
-                                        href="../assets/den_bao_phanh.jpg"
+                                        data-caption="Honda Crv - "
+                                        href="../assets/crv/hand-brake.jpg"
                                     >
-                                        <img src="../assets/den_bao_phanh.jpg" alt="" />
-                                        <figcaption>Đèn báo phanh khẩn cấp</figcaption>
+                                        <img src="../assets/crv/hand-brake.jpg" alt="" />
+                                        <figcaption>
+                                            Phanh tay điện tử giúp việc đỗ xe hay dừng xe trên đường dốc trở nên dễ dàng
+                                            chỉ với thao tác đơn giản trên nút bấm (P).
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda Crv - "
+                                        href="../assets/crv/anti-sleepy.png"
+                                    >
+                                        <img src="../assets/crv/anti-sleepy.png" alt="" />
+                                        <figcaption>
+                                            Hệ thống cảnh báo chống buồn ngủ (Driver Attention Monitor) phát hiện tình
+                                            trạng mất tập trung của người lái khi điều khiển xe, đồng thời phát ra tín
+                                            hiệu cảnh báo với các cấp độ thông qua hình ảnh, âm thanh và rung vô lăng để
+                                            nhắc nhở lái xe nghỉ ngơi khi cần thiết.
+                                        </figcaption>
                                     </figure>
                                 </td>
                             </tr>
@@ -196,13 +213,13 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
-                                        href="../assets/camera_lui_4.jpg"
+                                        data-caption="Honda Crv - "
+                                        href="../assets/crv/reversing-camera.jpg"
                                     >
-                                        <img src="../assets/camera_lui_4.jpg" alt="" />
+                                        <img src="../assets/crv/reversing-camera.jpg" alt="" />
                                         <figcaption>
-                                            Camera lùi 3 góc quay giúp người lái dễ dàng quan sát hơn trong những tình
-                                            huống lùi và đỗ xe
+                                            Camera lùi 3 góc quay giúp người lái dễ dàng quan sát hơn trong các tình
+                                            huống lùi và dừng/đỗ xe.
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -210,13 +227,14 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
-                                        href="../assets/Cam_bien_va_cham.jpg"
+                                        data-caption="Honda Crv - "
+                                        href="../assets/crv/active-steering.png"
                                     >
-                                        <img src="../assets/Cam_bien_va_cham.jpg" alt="" />
+                                        <img src="../assets/crv/active-steering.png" alt="" />
                                         <figcaption>
-                                            Chế độ quan sát làn đường qua hệ thống camera đặt ở gương chiếu hậu giúp
-                                            quan sát và cảnh báo khoảng cách an toàn với phương tiện gần nhất
+                                            Hệ thống hỗ trợ đánh lái chủ động AHA kiểm soát lực phanh trên từng bánh xe
+                                            tương ứng với gia tốc và mức đánh lái, hỗ trợ người lái bám cua chính xác và
+                                            tự tin.
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -224,11 +242,14 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
-                                        href="../assets/He_thong_HSA.jpg"
+                                        data-caption="Honda Crv - "
+                                        href="../assets/crv/departing-across-slope.png"
                                     >
-                                        <img src="../assets/He_thong_HSA.jpg" alt="" />
-                                        <figcaption>Hệ thống hỗ trợ khởi hành ngang dóc HSA</figcaption>
+                                        <img src="../assets/crv/departing-across-slope.png" alt="" />
+                                        <figcaption>
+                                            Chế độ khởi hành ngang dốc HSA giúp người lái an tâm và tự tin hơn trên
+                                            những cung đường dốc.
+                                        </figcaption>
                                     </figure>
                                 </td>
                             </tr>
@@ -243,13 +264,27 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
-                                        href="../assets/cam_bien_gat_mua.jpg"
+                                        data-caption="Honda Crv - "
+                                        href="../assets/crv/balance.png"
                                     >
-                                        <img src="../assets/cam_bien_gat_mua.jpg" alt="" />
+                                        <img src="../assets/crv/balance.png" alt="" />
+                                        <figcaption>
+                                            Hệ thống cân bằng điện tử VSA kiểm soát những thay đổi đột ngột, giữ cho xe
+                                            luôn trong tầm kiểm soát của người lái.
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda Crv - "
+                                        href="../assets/crv/rain-sensor.jpg"
+                                    >
+                                        <img src="../assets/crv/rain-sensor.jpg" alt="" />
                                         <figcaption>
                                             Cảm biến gạt mưa tự động kích hoạt khi trời mưa và điều chỉnh mức gạt phù
-                                            hợp, mang đến tầm nhìn tối đa cho người lái
+                                            hợp, mang đến tầm nhìn tối đa cho người lái (L).
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -257,24 +292,13 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
-                                        href="../assets/Phanh_tay_dien_tu.jpg"
+                                        data-caption="Honda Crv - "
+                                        href="../assets/crv/emergency-brake-lights.jpg"
                                     >
-                                        <img src="../assets/Phanh_tay_dien_tu.jpg" alt="" />
-                                        <figcaption>Phanh tay điện tử hiện đại và tiện lợi</figcaption>
-                                    </figure>
-                                </td>
-                                <td>
-                                    <figure
-                                        className="image"
-                                        data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
-                                        href="../assets/Phanh_tu_dong.jpg"
-                                    >
-                                        <img src="../assets/Phanh_tu_dong.jpg" alt="" />
+                                        <img src="../assets/crv/emergency-brake-lights.jpg" alt="" />
                                         <figcaption>
-                                            Chế độ giữ phanh tự động Brake Hold giúp bạn thoải mái và thư giãn hơn tại
-                                            các điểm dừng đèn giao thông hoặc tắc đường
+                                            Đèn báo phanh khẩn cấp tự động kích hoạt khi xe dừng đột ngột, hạn chế va
+                                            chạm với các xe phía sau.
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -291,12 +315,13 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
-                                        href="../assets/can_bang_dien_tu_VSA.jpg"
+                                        data-caption="Honda Crv - "
+                                        href="../assets/crv/automatic-door-lock.png"
                                     >
-                                        <img src="../assets/can_bang_dien_tu_VSA.jpg" alt="" />
+                                        <img src="../assets/crv/automatic-door-lock.png" alt="" />
                                         <figcaption>
-                                            Hệ thống cân bằng điện tử VSA kiểm soát những thay đổi đột ngột
+                                            Chức năng khoá cửa tự động khi bạn rời khỏi xe và mang theo chìa khoá ra
+                                            khỏi vùng cảm biến.
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -304,14 +329,14 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
-                                        href="../assets/khung_xe.jpg"
+                                        data-caption="Honda Crv - "
+                                        href="../assets/crv/keep-automatically.jpg"
                                     >
-                                        <img src="../assets/khung_xe.jpg" alt="" />
+                                        <img src="../assets/crv/keep-automatically.jpg" alt="" />
                                         <figcaption>
-                                            Khung xe sử dụng thép có độ cứng cao, công nghê tương thích với các va chạm
-                                            (ACE) giúp hấp thụ lực và phân bổ lực va chạm, giảm thiểu nguy cơ chấn
-                                            thương
+                                            Chế độ giữ phanh tạm thời: Hệ thống sẽ tự động hãm phanh khi xe dừng tại các
+                                            điểm dừng đèn giao thông hoặc tắc đường, giúp bạn nhàn hơn vì không phải giữ
+                                            chân phanh trong khoảng thời gian dài.
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -319,11 +344,11 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
-                                        href="../assets/khoa_cua_tu_dong.jpg"
+                                        data-caption="Honda Crv - "
+                                        href="../assets/crv/sensor-back.jpg"
                                     >
-                                        <img src="../assets/khoa_cua_tu_dong.jpg" alt="" />
-                                        <figcaption>Chế độ khoá cửa tự động khi ra khỏi vùng cảm biến</figcaption>
+                                        <img src="../assets/crv/sensor-back.jpg" alt="" />
+                                        <figcaption>Cảm biến lùi cảnh báo bằng âm thanh và hình ảnh (L).</figcaption>
                                     </figure>
                                 </td>
                             </tr>

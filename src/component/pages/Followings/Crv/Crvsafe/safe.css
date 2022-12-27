@@ -1,5 +1,14 @@
 
 .box_pro_safe {
-    float: left;
-    background-image: url('/public/assets/bg.jpg');   
+    float: left; 
+}
+
+
+
+@media (min-width: 62em){
+    .card-safe{
+        text-align: left;
+        margin-left: 40rem;
+        margin-top: 40px;
+    }
 }
