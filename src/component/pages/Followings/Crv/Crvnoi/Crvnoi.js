@@ -28,7 +28,7 @@ export default function Crvnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                         href="../assets/crv/seven-seats.jpg"
                                     >
                                         <img src="../assets/crv/seven-seats.jpg" alt='' />
@@ -39,7 +39,7 @@ export default function Crvnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                         href="../assets/crv/five-seats.jpg"
                                     >
                                         <img src="../assets/crv/five-seats.jpg" alt='' />
@@ -50,7 +50,7 @@ export default function Crvnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                         href="../assets/crv/long-mode.jpg"
                                     >
                                         <img src="../assets/crv/long-mode.jpg" alt='' />
@@ -69,7 +69,7 @@ export default function Crvnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                         href="../assets/crv/handy-mode.jpg"
                                     >
                                         <img src="../assets/crv/handy-mode.jpg" alt='' />
@@ -80,7 +80,7 @@ export default function Crvnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                         href="../assets/crv/giai-tri-1.png"
                                     >
                                         <img src="../assets/crv/giai-tri-1.png" alt='' />
@@ -91,7 +91,7 @@ export default function Crvnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                         href="../assets/crv/lanewatch.png"
                                     
                                     >
@@ -116,7 +116,7 @@ export default function Crvnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                         href="../assets/crv/cua-so-troi-pano.png"
                                     >
                                         <img src="../assets/crv/cua-so-troi-pano.png" alt='' />
@@ -127,7 +127,7 @@ export default function Crvnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                         href="../assets/crv/sac-khong-day.png"
                                     >
                                         <img src="../assets/crv/sac-khong-day.png" alt='' />
@@ -138,7 +138,7 @@ export default function Crvnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                         href="../assets/crv/nut-kd.jpg"
                                     >
                                         <img src="../assets/crv/nut-kd.jpg" alt='' />

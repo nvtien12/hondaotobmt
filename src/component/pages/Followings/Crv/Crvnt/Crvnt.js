@@ -36,7 +36,7 @@ export default function Crvnt() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                         href="../assets/crv/exterior_headlight.jpg"
                                     >
                                         <img src="../assets/crv/exterior_headlight.jpg" alt="" />
@@ -50,7 +50,7 @@ export default function Crvnt() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                         href="../assets/crv/exterior_taillight_cluster.jpg"
                                     >
                                         <img src="../assets/crv/exterior_taillight_cluster.jpg" alt="" />
@@ -63,7 +63,7 @@ export default function Crvnt() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                         href="../assets/crv/fog_lights.png"
                                     >
                                         <img src="../assets/crv/fog_lights.png" alt="" />
@@ -84,7 +84,7 @@ export default function Crvnt() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                         href="../assets/crv/mirror.png"
                                     >
                                         <img src="../assets/crv/mirror.png" alt="" />
@@ -97,7 +97,7 @@ export default function Crvnt() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                         href="../assets/crv/sensor_handle.png"
                                     >
                                         <img src="../assets/crv/sensor_handle.png" alt="" />
@@ -110,7 +110,7 @@ export default function Crvnt() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                     >
                                         <img src="../assets/crv/la_zang.png" alt="" />
                                         <figcaption>
@@ -132,7 +132,7 @@ export default function Crvnt() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                     >
                                         <img src="../assets/crv/front-bumper.png" alt="" />
                                         <figcaption>
@@ -144,7 +144,7 @@ export default function Crvnt() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                         href="../assets/crv/dual_exhaust_pipes.png"
                                     >
                                         <img src="../assets/crv/dual_exhaust_pipes.png" alt="" />
@@ -158,7 +158,7 @@ export default function Crvnt() {
                                <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv - "
                                         href="../assets/crv/shark.jpg"
                                     >
                                         <img src="../assets/crv/shark.png" alt="" />

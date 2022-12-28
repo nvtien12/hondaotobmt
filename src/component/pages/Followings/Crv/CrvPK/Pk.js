@@ -21,7 +21,7 @@ export default function Pk() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv- "
                                         href="../assets/crv/foot-support.png"
                                     >
                                         <img
@@ -37,7 +37,7 @@ export default function Pk() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv- "
                                         href="../assets/crv/foot-support.png"
                                     >
                                         <img src="../assets/crv/foot-support.png" alt="" />
@@ -50,7 +50,7 @@ export default function Pk() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv- "
                                         href="../assets/crv/car-lights.jpg"
                                     >
                                         <img src="../assets/crv/car-lights.jpg" alt="" />
@@ -71,7 +71,7 @@ export default function Pk() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv- "
                                         href="../assets/crv/chrome-tail-brace.png"
                                     >
                                         <img src="../assets/crv/chrome-tail-brace.png" alt="" />
@@ -84,7 +84,7 @@ export default function Pk() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv- "
                                         href="../assets/crv/cover-trunk.jpg"
                                     >
                                         <img src="../assets/crv/cover-trunk.jpg" alt="" />
@@ -97,7 +97,7 @@ export default function Pk() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv- "
                                         href="../assets/crv/car-tarpaulin.jpg"
                                     >
                                         <img src="../assets/crv/car-tarpaulin.jpg" alt="" />
@@ -114,7 +114,7 @@ export default function Pk() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv- "
                                         href="../assets/crv/handle-protection-plate.png"
                                     >
                                         <img src="../assets/crv/handle-protection-plate.png" alt="" />
@@ -127,7 +127,7 @@ export default function Pk() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv- "
                                         href="../assets/crv/rain-cover.jpg"
                                     >
                                         <img src="../assets/crv/rain-cover.jpg" alt="" />
@@ -140,7 +140,7 @@ export default function Pk() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Accord - "
+                                        data-caption="Honda Crv- "
                                         href="../assets/crv/floor-mats.png"
                                     >
                                         <img src="../assets/crv/floor-mats.png" alt="" />
