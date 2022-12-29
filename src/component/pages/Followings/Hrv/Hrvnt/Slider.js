@@ -6,7 +6,7 @@ import ThreeSixty from "react-360-view";
 
 export default class Images extends Component {
   state = {
-    imgSrc: "../assets/civic/civic-red",
+    imgSrc: "../assets/hrv/hrv-red",
     id: 1,
     flag: 0,
     logID: ""
@@ -15,29 +15,29 @@ export default class Images extends Component {
  carList = [
    {
      id: 1,
-     img: "../assets/civic/red-dot.png",
-     srcImg: "/civic/civic-red/"
+     img: "../assets/hrv/red-dot.png",
+     srcImg: "/hrv/hrv-red/"
    },
     {
       id: 2,
-      img: "../assets/civic/black-dot.png",
-      srcImg: "/civic/civic-black/"
+      img: "../assets/hrv/black-dot.png",
+      srcImg: "/hrv/hrv-black/"
     },
     {
       id: 3,
-      img: "../assets/civic/silver-dot.png",
-      srcImg: "/civic/civic-silver/"
+      img: "../assets/hrv/silver-dot.png",
+      srcImg: "/hrv/hrv-xam/"
     },
     {
       id: 4,
-      img: "../assets/civic/white-dot.png",
+      img: "../assets/hrv/white-dot.png",
 
-      srcImg: "/civic/civic-white/"
+      srcImg: "/hrv/hrv-white/"
     },
     {
       id: 5,
-      img: "../assets/civic/blue-dot.png",
-      srcImg: "/civic/civic-blue/"
+      img: "../assets/hrv/white-circle.png",
+      srcImg: "/hrv/hrv-silverwhite/"
     },
     
    
@@ -70,7 +70,7 @@ export default class Images extends Component {
           style={{ display: "none" }}
         >
           <ThreeSixty
-            amount={8}
+            amount={9}
             imagePath={`../assets/${car.srcImg}`}
             fileName="car-{index}.png"  
           />
@@ -89,8 +89,8 @@ export default class Images extends Component {
               {this.renderCar360()}
               <div id="carDefault">
                 <ThreeSixty
-                  amount={8}
-                  imagePath={`../assets/civic/civic-red`}
+                  amount={9}
+                  imagePath={`../assets/hrv/hrv-red`}
                   fileName="car-{index}.png"
                 />
               </div>
@@ -106,7 +106,7 @@ export default class Images extends Component {
                 >
                   <div className="row">
                     <div className="col-2">
-                      <img src="../assets/civic/black-dot.png" boderRadius="50%" width="60px" alt="" />
+                      <img src="../assets/hrv/black-dot.png" boderRadius="50%" width="60px" alt="" />
                     </div>
                     <div className="col-10 d-flex align-items-center">
                     ĐEN ÁNH ĐỘC TÔN
@@ -119,7 +119,7 @@ export default class Images extends Component {
                 >
                   <div className="row">
                     <div className="col-2">
-                      <img src="../assets/civic/red-dot.png" boderRadius="50%"  width="60px" alt="" />
+                      <img src="../assets/hrv/red-dot.png" boderRadius="50%"  width="60px" alt="" />
                     </div>
                     <div className="col-10 d-flex align-items-center">
                       ĐỎ CÁ TÍNH
@@ -132,7 +132,7 @@ export default class Images extends Component {
                 >
                   <div className="row">
                     <div className="col-2">
-                      <img src="../assets/civic/silver-dot.png" boderRadius="50%"  width="60px" alt="" />
+                      <img src="../assets/hrv/silver-dot.png" boderRadius="50%"  width="60px" alt="" />
                     </div>
                     <div className="col-10 d-flex align-items-center">
                     XÁM PHONG CÁCH
@@ -145,7 +145,7 @@ export default class Images extends Component {
                 >
                   <div className="row">
                     <div className="col-2">
-                      <img src="../assets/civic/white-dot.png" boderRadius="50%" width="60px" alt="" />
+                      <img src="../assets/hrv/white-dot.png" boderRadius="50%" width="60px" alt="" />
                     </div>
                     <div className="col-10 d-flex align-items-center">
                     TRẮNG NGỌC QUÝ PHÁI
@@ -158,10 +158,10 @@ export default class Images extends Component {
                 >
                   <div className="row">
                     <div className="col-2">
-                      <img src="../assets/civic/blue-dot.png" boderRadius="50%"  width="60px" alt="" />
+                      <img src="../assets/hrv/white-circle.png" boderRadius="50%"  width="60px" alt="" />
                     </div>
                     <div className="col-10 d-flex align-items-center">
-                     XANH THỜI THƯỢNG
+                     TRẮNG BẠC THỜI TRANG
                     </div>
                   </div>
                 </li>

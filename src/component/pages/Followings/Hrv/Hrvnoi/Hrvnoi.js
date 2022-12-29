@@ -1,19 +1,19 @@
 import React from 'react';
-import './civicnoi.scss';
+import './hrvnoi.scss';
 
-export default function Civicnoi() {
+export default function Hrvnoi() {
     return (
         <div className="box_pro_noi_that" id="noithat">
             <div className="card text-bg-dark">
-                <img src="../assets/civic/bg_1.jpg" className="card-img" alt="..." />
+                <img src="../assets/hrv/bg_interior_desktop_2.png" className="card-img" alt="..." />
                 <div className="card-img-overlay">
-                    <div className="overlay-civicnoi">
+                    <div className="overlay-hrvnoi">
                         <h3 className="card-title">NỘI THẤT</h3>
-                        <h1 className="text-card">TOẢ SÁNG KHÔNG GIAN TIỆN NGHI</h1>
+                        <h1 className="text-card">KHÔNG GIAN RỘNG RÃI, TẬN HƯỞNG BẤT NGỜ</h1>
 
                         <p className="card-text">
-                            Rộng rãi, tiện nghi cùng các trang bị hiện đại, Honda Civic <br/> cho bạn và gia đình tận hưởng sự
-                            thư thái vượt xa mong <br/> đợi trên mọi hành trình.
+                            Nội thất sang trọng với không gian rộng rãi cùng tầm nhìn <br/> thoáng đãng trải dài giúp bạn tận
+                            hưởng thoải mái trải nghiệm gần xa
                         </p>
                     </div>
                 </div>
@@ -27,15 +27,12 @@ export default function Civicnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/connect_phone.png"
+                                        data-caption="Honda hrv - "
+                                        href="../assets/hrv/interior1-1.png"
                                     >
-                                        <img src="../assets/civic/connect_phone.png" alt="" />
+                                        <img src="../assets/hrv/interior1-1.png" alt="" />
                                         <figcaption>
-                                            Màn hình cảm ứng 9 inch độ phân giải cao cho hình ảnh hiển thị mượt mà và
-                                            sắc nét. Hệ thống hỗ trợ kết nối không dây với điện thoại giúp bạn dễ dàng
-                                            nghe nhạc, nhắn tin, xem bản đồ,… và tận hưởng hành trình một cách trọn vẹn
-                                            (RS).
+                                            <p>Chế độ vật cao (Tall Mode).</p>
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -43,16 +40,12 @@ export default function Civicnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/cum_dong_ho.png"
+                                        data-caption="Honda hrv - "
+                                        href="../assets/hrv/interior1-2.png"
                                     >
-                                        <img src="../assets/civic/cum_dong_ho.png" alt="" />
+                                        <img src="../assets/hrv/interior1-2.png" alt="" />
                                         <figcaption>
-                                            Cụm đồng hồ thông số điện tử 10.2 inch hiển thị màu sắc nét và được bố trí
-                                            thuận tiện với tầm mắt người lái (RS). Bảng đồng hồ trung tâm có thể tùy
-                                            chọn hiển thị thông tin bài nhạc, tình trạng cửa, thông số hành trình,… qua
-                                            nút bấm trên vô-lăng, đảm bảo sự tiện lợi mà vẫn giữ được sự tập trung tối
-                                            đa khi cầm lái.
+                                            <p>Chế độ đồ vật dài (Long mode)</p>
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -60,13 +53,12 @@ export default function Civicnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/vo_lang.png"
+                                        data-caption="Honda hrv - "
+                                        href="../assets/hrv/interior1-3.png"
                                     >
-                                        <img src="../assets/civic/vo_lang.png" alt="" />
+                                        <img src="../assets/hrv/interior1-3.png" alt="" />
                                         <figcaption>
-                                            Vô-lăng tích hợp nút điều khiển đa thông tin, âm thanh, đàm thoại rảnh tay
-                                            và ra lệnh bằng giọng nói.
+                                            <p>Chế độ tiện dụng (Utility mode)</p>
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -82,14 +74,15 @@ export default function Civicnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/he_thong_loa.png"
+                                        data-caption="Honda hrv - "
+                                        href="../assets/hrv/interior-1.png"
                                     >
-                                        <img src="../assets/civic/he_thong_loa.png" alt="" />
+                                        <img src="../assets/hrv/interior-1.png" alt="" />
                                         <figcaption>
-                                            Hệ thống 12 loa cao cấp BOSE với công nghệ âm thanh vòm mang lại trải nghiệm
-                                            âm thanh đa chiều sống động và chân thật, để bạn đắm chìm với những bản nhạc
-                                            tuyệt hảo trên mọi chuyến hành trình (RS).
+                                            <p>
+                                                Cụm đồng hồ kết hợp Digital và Analog với màn hình TFT 7 inch hiện thị
+                                                màu sắc rõ nét, thuận tiện tầm mắt người lái.{' '}
+                                            </p>
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -97,11 +90,30 @@ export default function Civicnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/dieu_hoa.png"
+                                        data-caption="Honda hrv - "
+                                        href="../assets/hrv/interior-2.png"
                                     >
-                                        <img src="../assets/civic/dieu_hoa.png" alt="" />
-                                        <figcaption>Hệ thống điều hòa tự động 2 vùng tiện lợi (RS).</figcaption>
+                                        <img src="../assets/hrv/interior-2.png" alt="" />
+                                        <figcaption>
+                                            <p>
+                                                Màn hình cảm ứng 8 inch với độ phân giải cao, tích hợp kết nối có dây
+                                                với Apple Carplay và Android Auto giúp tận hưởng hành trình một cách
+                                                trọn vẹn
+                                            </p>
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda hrv - "
+                                        href="../assets/hrv/interior-3.png"
+                                    >
+                                        <img src="../assets/hrv/interior-3.png" alt="" />
+                                        <figcaption>
+                                            <p>Hệ thống điều hòa 2 vùng tiện lợi</p>
+                                        </figcaption>
                                     </figure>
                                 </td>
                             </tr>

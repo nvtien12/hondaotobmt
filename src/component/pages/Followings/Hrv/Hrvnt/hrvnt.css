@@ -2,7 +2,9 @@
     text-align: center;
     
 }
-
+.hrvnt{
+    filter: brightness(80%);
+}
 
 .box_pro_ngoai_that {
     float: left;
@@ -117,6 +119,9 @@ table {
     text-align: left;
     margin-left: 45rem;
     margin-top: 7rem;
+}
+.hrvnt{
+    filter: brightness(80%);
 }
 
 }

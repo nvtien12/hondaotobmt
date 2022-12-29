@@ -6,9 +6,13 @@
 
 
 @media (min-width: 62em){
-    .card-civicsafe{
-        text-align: left;
-        margin-left: 40rem;
-        margin-top: 40px;
+    .card-hrvsafe{
+        text-align: center;
+       
+        margin-top: 20px;
+    }
+    .img-hrvsafe{
+        max-width: 100%;
+        max-height: 40%;
     }
 }

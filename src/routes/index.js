@@ -4,6 +4,7 @@ import Accord from '../component/pages/Followings/Accord/Accord'
 import Crv from '../component/pages/Followings/Crv/Crv';
 import Civic from '../component/pages/Followings/Civic/Civic';
 import Hrv from '../component/pages/Followings/Hrv/Hrv';
+import City from '../component/pages/Followings/City/City';
 
 
 
@@ -16,7 +17,7 @@ const publicRoutes =[
     {path: '/following/crv', component: Crv},
     {path: '/following/civic', component: Civic},
     {path: '/following/hrv', component: Hrv},
-
+    {path: '/following/city', component: City},
  
 
 ]

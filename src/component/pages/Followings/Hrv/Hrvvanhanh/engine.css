@@ -1,16 +1,28 @@
-
 .box_pro_engine {
     float: left;
 }
+
+.img-hrvengine {
+
+    filter: brightness(80%);
+
+}
+
 .engine {
     width: 88%;
     padding: 10px 20px;
 
 }
-@media (min-width: 62em){
-    .card-enginecivic{
+
+@media (min-width: 62em) {
+    .card-enginehrv {
         text-align: center;
-       
-        margin-top: 40px;
+        margin-top: 20px;
+    }
+
+    .img-hrvengine {
+        max-width: 100%;
+        filter: brightness(80%);
+        max-height: 35%;
     }
 }
