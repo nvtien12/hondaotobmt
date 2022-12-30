@@ -1,25 +1,27 @@
 import React from 'react';
-import './civicnt.css';
+import './citynt.css';
 import Images from './Slider';
 
-export default function Civicvnt() {
+export default function Cityvnt() {
     return (
         <div className="box_pro_ngoai_that" id="ngoaithat">
             <div className="card text-bg-dark">
-                
-                 <img src="../assets/civic/gb.jpg" alt=""/>   
-                
+                <img src="../assets/city/section-5-bg.png" alt="" />
+
                 <div className="card-img-overlay">
-                    <div className="card-civic">
+                    <div className="card-city">
                         <h3 className="card-title">NGOẠI THẤT</h3>
-                        <h2 className="text-card">DẤU ẤN VƯỢT TRỘI TẠO NÊN CHUẨN MỰC MỚI</h2>
+                        <h2 className="text-card">
+                            NỔI BẬT ĐÓN ĐẦU <br /> XU HƯỚNG
+                        </h2>
 
                         <p className="card-text">
-                            Thể thao, thời thượng nhưng không kém phần sang trọng, thiết kế mới của Honda Civic là tổng
-                            hòa của nhiều chi tiết tinh tế để kiến tạo nên  một diện mạo mới mẻ đầy cuốn hút, phản
-                            ánh trọn vẹn cá tính chủ sở hữu dám thách thức định kiến để tạo dựng vị thế riêng.
+                            Honda City kiến tạo chuẩn mực cho mọi xu hướng.
+                            <br />
+                            Với phong cách thiết kế thể thao, năng động đầy
+                            <br />
+                            cuốn hút, chiếc xe sẽ luôn là tâm điểm mỗi khi xuất hiện
                         </p>
-                        
                     </div>
                 </div>
             </div>
@@ -32,13 +34,14 @@ export default function Civicvnt() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/mat_truoc_xe.png"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/car-front.png"
                                     >
-                                        <img src="../assets/civic/mat_truoc_xe.png" alt="" />
+                                        <img src="../assets/city/car-front.png" alt="" />
                                         <figcaption>
-                                            Mặt trước xe nổi bật với lưới tản nhiệt tối màu tạo nên phong cách mạnh mẽ
-                                            đầy khí chất.
+                                            Mặt trước xe nổi bật với ốp mặt ca-lăng hình đôi cánh vững chãi tạo nên
+                                            phong cách thể thao và sang trọng cùng logo RS dập nổi mang đậm tinh thần
+                                            thể thao Honda (RS).
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -46,13 +49,13 @@ export default function Civicvnt() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/cum_den_truoc.png"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/front-lights.png"
                                     >
-                                        <img src="../assets/civic/cum_den_truoc.png" alt="" />
+                                        <img src="../assets/city/front-lights.png" alt="" />
                                         <figcaption>
-                                            Cụm đèn trước LED thiết kế hiện đại với điểm nhấn là dải đèn LED chạy ban
-                                            ngày cuốn hút bao ánh nhìn ngưỡng mộ (RS,G)
+                                            Cụm đèn trước thiết kế hiện đại với điểm nhấn là dải đèn LED chạy ban ngày
+                                            cuốn hút bao ánh nhìn ngưỡng mộ.
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -60,60 +63,13 @@ export default function Civicvnt() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/den_suong_mu.png"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/fog-lights.png"
                                     >
-                                        <img src="../assets/civic/den_suong_mu.png" alt="" />
+                                        <img src="../assets/city/fog-lights.png" alt="" />
                                         <figcaption>
-                                            Đèn sương mù LED được bố trí hài hòa với cản trước, góp phần tôn lên diện
-                                            mạo sang trọng cá tính (RS, G)
-                                        </figcaption>
-                                    </figure>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </figure>
-                <figure className="table">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <figure
-                                        className="image"
-                                        data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/la_zang.png"
-                                    >
-                                        <img src="../assets/civic/la_zang.png" alt="" />
-                                        <figcaption>
-                                            La-zăng 18” đa chấu thiết kế thể thao, tạo nên sự khoẻ khoắn và thời trang
-                                            cho chiếc xe (RS)
-                                        </figcaption>
-                                    </figure>
-                                </td>
-                                <td>
-                                    <figure
-                                        className="image"
-                                        data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/guong_chieu_hau.png"
-                                    >
-                                        <img src="../assets/civic/guong_chieu_hau.png" alt="" />
-                                        <figcaption>
-                                            Gương chiếu hậu tự động gập tích hợp đèn báo rẽ LED hiện đại (RS,G)
-                                        </figcaption>
-                                    </figure>
-                                </td>
-                                <td>
-                                    <figure
-                                        className="image"
-                                        data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                    >
-                                        <img src="../assets/civic/tay_nam_cua.png" alt="" />
-                                        <figcaption>
-                                            Tay nắm cửa phía trước đóng/mở bằng cảm biến tiện lợi (RS,G)
+                                            Đèn sương mù LED được bố trí hài hoà với cản trước, góp phần tôn lên diện
+                                            mạo thể thao góc cạnh (RS).
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -129,24 +85,80 @@ export default function Civicvnt() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
+                                        data-caption="Honda city - "
+                                        href="../assets/city/rearview-mirror.png"
                                     >
-                                        <img src="../assets/civic/ang_ten.png" alt="" />
-                                        <figcaption>Ăng tên vây cá mập tạo điểm nhấn độc đáo</figcaption>
+                                        <img src="../assets/city/rearview-mirror.png" alt="" />
+                                        <figcaption>
+                                            Gương chiếu hậu tích hợp đèn báo rẽ LED hiện đại (RS, L).
+                                        </figcaption>
                                     </figure>
                                 </td>
                                 <td>
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/cum_den_hau.png"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/la-zang.png"
                                     >
-                                        <img src="../assets/civic/cum_den_hau.png" alt="" />
+                                        <img src="../assets/city/la-zang.png" alt="" />
                                         <figcaption>
-                                            Cụm đèn hậu LED với thiết kế đa chiều sắc sảo giúp tăng khả năng nhận diện
-                                            trong đêm
+                                            La-zăng 16 inch đa chấu thiết kế thể thao, tạo nên sự khoẻ khoắn và thời
+                                            trang cho chiếc xe (RS).
                                         </figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda city - "
+                                    >
+                                        <img src="../assets/city/tail-lights.png" alt="" />
+                                        <figcaption>
+                                            Cụm đèn hậu LED với thiết kế đa chiều sắc sảo, giúp tăng khả năng nhận diện
+                                            trong đêm.
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </figure>
+                <figure className="table">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda city  "
+                                    >
+                                        <img src="../assets/city/wind-spoiler.png" alt="" />
+                                        <figcaption>Cánh lướt gió thể thao đầy cá tính (RS).</figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/rear-bumper.png"
+                                    >
+                                        <img src="../assets/city/rear-bumper.png" alt="" />
+                                        <figcaption>Ốp cản sau thiết kế khoẻ khoắn và vững chãi (RS).</figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/antenna.png"
+                                    >
+                                        <img src="../assets/city/antenna.png" alt="" />
+                                        <figcaption>Ăng-ten vây cá mập tạo điểm nhấn độc đáo.</figcaption>
                                     </figure>
                                 </td>
                             </tr>
@@ -154,7 +166,7 @@ export default function Civicvnt() {
                     </table>
                 </figure>
             </div>
-            <Images/>
+            <Images />
         </div>
     );
 }

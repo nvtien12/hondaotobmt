@@ -5,12 +5,14 @@ export default function Pk() {
     return (
         <div className="box_pro_pk" id="pk">
            <div className="card text-bg-dark">
-                <img src="../assets/civic/b2.jpg" className="card-img" alt="..." />
+                <img src="../assets/city/section-9-bg.png" className="card-img" alt="..." />
                 <div className="card-img-overlay">
-                    <div className="card-civicpk">
+                    <div className="card-citypk">
                         <h3>PHỤ KIỆN</h3>
                         <h1>PHỤ KIỆN TUỲ CHỌN CHÍNH HÃNG</h1>
-                        <p>Bạn có thể lựa chọn những phụ kiện trang trí giúp cho chiếc Civic thêm phần tinh tế hay những phụ kiện tiện ích <br/> giúp cho mọi hành trình trở nên tiện lợi và hữu dụng.</p>
+                        <p>Bạn có thể trang bị thêm những phụ kiện
+						tùy chọn chính <br/> hãng, giúp cho mọi hành trình
+						trở nên tiện lợi và hữu dụng.</p>
                     </div>
                 </div>
                 </div>
@@ -23,11 +25,11 @@ export default function Pk() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/bat_trum_xe.png"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/car-hood.png"
                                     >
                                         <img
-                                            src="../assets/civic/bat_trum_xe.png"
+                                            src="../assets/city/car-hood.png"
                                             alt=""
                                         />
                                         <figcaption>
@@ -39,12 +41,12 @@ export default function Pk() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/chup_ong_xa.png"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/carpet.png"
                                     >
-                                        <img src="../assets/civic/chup_ong_xa.png" alt="" />
+                                        <img src="../assets/city/carpet.png" alt="" />
                                         <figcaption>
-                                            <p>CHỤP ỐNG XẢ MẠ CHROME </p>
+                                            <p>THẢM TRẢI SÀN</p>
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -52,12 +54,12 @@ export default function Pk() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/trai_cop.png"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/fenders.png"
                                     >
-                                        <img src="../assets/civic/trai_cop.png" alt="" />
+                                        <img src="../assets/city/fenders.png" alt="" />
                                         <figcaption>
-                                            <p>TRẢI CỐP </p>
+                                            <p>CHẮN BÙN </p>
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -73,61 +75,47 @@ export default function Pk() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/vien_che_mua.png"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/foot-braces-lights.png"
                                     >
-                                        <img src="../assets/civic/vien_che_mua.png" alt="" />
+                                        <img src="../assets/city/foot-braces-lights.png" alt="" />
+                                        <figcaption>
+                                            <p>NẸP BƯỚC CHÂN CÓ ĐÈN </p>
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/spread-trunk.png"
+                                    >
+                                        <img src="../assets/city/spread-trunk.png" alt="" />
+                                        <figcaption>
+                                        <p>TRẢI CỐP </p>
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                            
+                            
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/rain-cover.png"
+                                    >
+                                        <img src="../assets/city/rain-cover.png" alt="" />
                                         <figcaption>
                                             <p>VIỀN CHE MƯA </p>
                                         </figcaption>
                                     </figure>
                                 </td>
-                                <td>
-                                    <figure
-                                        className="image"
-                                        data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/nep_buoc_chan_ko_den.png"
-                                    >
-                                        <img src="../assets/civic/nep_buoc_chan_ko_den.png" alt="" />
-                                        <figcaption>
-                                            <p>NẸP BƯỚC CHÂN KHÔNG ĐÈN </p>
-                                        </figcaption>
-                                    </figure>
-                                </td>
-                                <td>
-                                    <figure
-                                        className="image"
-                                        data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/nep_buoc_chan_co_den_rs.png"
-                                    >
-                                        <img src="../assets/civic/nep_buoc_chan_co_den_rs.png" alt="" />
-                                        <figcaption>
-                                            <p>NẸP BƯỚC CHÂN CÓ ĐÈN (DÀNH CHO PHIÊN BẢN RS) </p>
-                                        </figcaption>
-                                    </figure>
-                                </td>
                             </tr>
                         </tbody>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <figure
-                                        className="image"
-                                        data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/nep_buoc_chan_co_den_eg.png"
-                                    >
-                                        <img src="../assets/civic/nep_buoc_chan_co_den_eg.png" alt="" />
-                                        <figcaption>
-                                        <p>NẸP BƯỚC CHÂN CÓ ĐÈN (DÀNH CHO PHIÊN BẢN E, G) </p>
-                                        </figcaption>
-                                    </figure>
-                                </td>
-                               
-                            </tr>
-                        </tbody>
+                      
                     </table>
                 </figure>
             </div>

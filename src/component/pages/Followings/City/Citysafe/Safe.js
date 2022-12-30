@@ -5,25 +5,20 @@ import './safe.css';
 export default function Safe() {
     return (
         <div className="box_pro_safe" id="antoan">
-          
-                    <div className="card text-bg-dark">
-                        <img src="../assets/civic/bg_2.jpg" className="card-img" alt="..." />
-                        <div className="card-img-overlay">
-                            <div className="card-civicsafe">
-                                <h3 className="card-title">AN TOÀN</h3>
-                                <img src="../assets/civic/honda_sensing_icon.png" alt=""/>
-
-                                <p className="card-text">
-                                Hệ thống công nghệ hỗ trợ lái xe an
-                                    toàn tiên tiến Honda <br/>
-                                    SENSING hỗ trợ
-                                    và bảo vệ bạn tối đa trong từng khoảnh <br/> khắc, để bạn an tâm vững tay lái trên mọi
-                                    cung đường.
-                                </p>
-                            </div>
-                        </div>
+            <div className="card text-bg-dark">
+                <img src="../assets/city/section-8-bg.png" className="card-img" alt="..." />
+                <div className="card-img-overlay">
+                    <div className="card-citysafe">
+                        <h2 className="card-title">AN TOÀN</h2>
+                        <h2>HỆ THỐNG AN TOÀN TIÊN TIẾN</h2>
+                        <p className="card-text">
+                            Xếp hạng 5* cao nhất về mức độ an toàn theo đánh giá <br/> của Tổ chức đánh giá xe mới Đông Nam Á
+                            <br/>- ASEAN NCAP.
+                        </p>
                     </div>
-              
+                </div>
+            </div>
+
             <div className="box_content_pro">
                 <figure className="table">
                     <table>
@@ -33,18 +28,15 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda civic - "
-                                        href="../assets/civic/cmbs.png"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/air-bag.png"
                                     >
-                                        <img src="../assets/civic/cmbs.png" alt="" />
+                                        <img src="../assets/city/air-bag.png" alt="" />
                                         <figcaption>
-                                            <h5>
-                                                        Hệ thống phanh giảm thiểu va chạm (CMBS)
-                                                    </h5>
+                                            <h5>HỆ THỐNG TÚI KHÍ</h5>
                                             <p>
-                                                Cảnh báo người lái khi phát hiện vật cản phía trước. Ngoài ra, trong
-                                                trường hợp người lái không thể tránh khỏi va chạm, hệ thống sẽ tự động
-                                                phanh để giảm thiểu thiệt hại.
+                                                Hệ thống 6 túi khí giúp đảm bảo an toàn tối đa cho người lái và người
+                                                đồng hành trong trường hợp xảy ra va chạm (RS).
                                             </p>
                                         </figcaption>
                                     </figure>
@@ -53,20 +45,16 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda civic - "
-                                        href="../assets/civic/ahb.png"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/abs.png"
                                     >
-                                        <img src="../assets/civic/ahb.png" alt="" />
+                                        <img src="../assets/city/abs.png" alt="" />
                                         <figcaption>
-                                            <h5>
-                                                        Hệ thống đèn pha thích ứng tự động (AHB)
-                                                    </h5>
+                                            <h5>HỆ THỐNG ABS, EBD & BA</h5>
                                             <p>
-                                                
-                                            Trong điều kiện lái xe vào ban đêm, hệ thống tự động chuyển đổi
-                                                        giữa đèn chiếu gần và đèn
-                                                        chiếu xa tùy thuộc vào tình trạng giao thông.
-                                                    
+                                                Hệ thống chống bó cứng phanh (ABS) , phân bổ lực phanh điện tử (EBD) và
+                                                hỗ trợ phanh khẩn cấp (BA) giúp xe an toàn trong những tình huống phanh
+                                                khẩn cấp.
                                             </p>
                                         </figcaption>
                                     </figure>
@@ -75,21 +63,15 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda civic - "
-                                        href="../assets/civic/acc.png"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/vsa.png"
                                     >
-                                        <img src="../assets/civic/acc.png" alt="" />
+                                        <img src="../assets/city/vsa.png" alt="" />
                                         <figcaption>
-                                            <h5>
-                                                        Hệ thống kiểm soát hành trình thích ứng bao gồm dải tốc độ thấp
-                                                        (ACC with LSF)
-                                                    </h5>
+                                            <h5>HỆ THỐNG CÂN BẰNG ĐIỆN TỬ (VSA)</h5>
                                             <p>
-                                              
-                                            Hỗ trợ duy trì khoảng cách với phương tiện phía trước khi lái xe
-                                                        trên đường cao tốc. Hệ thống
-                                                        sẽ tự động tăng tốc và giảm tốc giúp việc lái xe thoải mái hơn.
-                                                    
+                                                Hệ thống cân bằng điện tử (VSA) kiểm soát những thay đổi đột ngột, giữ
+                                                cho xe luôn trong tầm kiểm soát của người lái.
                                             </p>
                                         </figcaption>
                                     </figure>
@@ -106,44 +88,33 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda civic - "
-                                        href="../assets//civic/lcdn.png"
+                                        data-caption="Honda city - "
+                                        href="../assets//city/hsa.png"
                                     >
-                                        <img src="../assets//civic/lcdn.png" alt="" />
+                                        <img src="../assets//city/hsa.png" alt="" />
                                         <figcaption>
-                                            <h5>
-                                                        Hệ thống thông báo xe phía trước khởi hành (LCDN)
-                                                    </h5>
+                                            <h5>CHẾ ĐỘ HỖ TRỢ KHỞI HÀNH NGANG DỐC</h5>
                                             <p>
-                                                
-                                            Phát hiện và thông báo cho người lái trong trường hợp xe dừng đỗ phía trước đã bắt đầu di chuyển thông qua các cảnh báo bằng hình ảnh và âm thanh. Tính năng này đặc biệt hữu dụng trong các trường hợp dừng đỗ đèn đỏ.
-                                                    
+                                                Chế độ hỗ trợ khởi hành ngang dốc (HSA) giúp người lái an tâm và tự tin
+                                                ở những cung đường dốc hoặc nhấp nhô.
                                             </p>
                                         </figcaption>
                                     </figure>
                                 </td>
-                                
-                                  
+
                                 <td>
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda civic - "
-                                        href="../assets/civic/rdm.png"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/frame.png"
                                     >
-                                        <img src="../assets/civic/rdm.png" alt="" />
+                                        <img src="../assets/city/frame.png" alt="" />
                                         <figcaption>
-                                            <h5>
-                                               
-                                            Hệ thống giảm thiểu chệch làn đường (RDM)
-                                                    
-                                            </h5>
+                                            <h5>KHUNG XE</h5>
                                             <p>
-                                                
-                                            Cảnh báo và hỗ trợ người lái đi đúng làn đường khi hệ thống phát
-                                                        hiện xe di chuyển quá gần
-                                                        hoặc đè lên vạch kẻ phân cách các làn đường.
-                                                    
+                                                Khung xe sử dụng các tấm thép cường lực cao, giúp hấp thụ lực tác động
+                                                của va chạm, giảm nguy cơ chấn thương.
                                             </p>
                                         </figcaption>
                                     </figure>
@@ -152,28 +123,47 @@ export default function Safe() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda civic - "
-                                        href="../assets/civic/lkas.png"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/isofix.png"
                                     >
-                                        <img src="../assets/civic/lkas.png" alt="" />
+                                        <img src="../assets/city/isofix.png" alt="" />
                                         <figcaption>
-                                            <h5>
-                                                        Hệ thống hỗ trợ giữ làn đường (LKAS)
-                                                    </h5>
-                                           <p> 
-                                                        Hỗ trợ đánh lái để giữ cho xe luôn đi ở giữa làn đường, đồng
-                                                        thời hiển thị cảnh báo trong
-                                                        trường hợp xe đi chệch khỏi làn đường.
-                                                    </p>
+                                            <h5>ISOFIX</h5>
+                                            <p>IsoFix - Móc ghế an toàn cho trẻ em hàng ghế sau.</p>
                                         </figcaption>
                                     </figure>
                                 </td>
-                               
                             </tr>
                         </tbody>
                     </table>
+
                 </figure>
-              
+                <figure className="table">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda city - "
+                                        href="../assets/city/reverse-camera.png"
+                                    >
+                                        <img src="../assets/city/reverse-camera.png" alt="" />
+                                        <figcaption>
+                                            <h5>CAMERA LÙI</h5>
+                                            <p>
+                                                Camera lùi 3 góc quay là trợ thủ đắc lực trong các tình huống lùi và đỗ
+                                                xe (RS, L).
+                                            </p>
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                </tr>
+                        </tbody>
+
+                    </table>
+                </figure>
             </div>
         </div>
     );

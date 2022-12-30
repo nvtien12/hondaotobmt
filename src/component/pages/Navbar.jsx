@@ -45,7 +45,7 @@ export default function Navbar() {
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="./following/civic">
                       Honda Civic
                     </a>
                   </li>
@@ -56,12 +56,12 @@ export default function Navbar() {
                   </li>
                   
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="./following/hrv">
                       Honda Hrv
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="./following/city">
                       Honda City
                     </a>
                   </li>

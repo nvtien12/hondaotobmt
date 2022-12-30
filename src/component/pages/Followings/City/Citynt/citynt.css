@@ -113,10 +113,12 @@ table {
     line-height: 26px;
     border: transparent;
 }
-.card-overlay{
+
+.card-city{
     text-align: left;
-    margin-left: 45rem;
-    margin-top: 7rem;
+    margin-left: 20px;
+    margin-top: 26rem;
+
 }
 
 }
