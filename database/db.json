@@ -4,10 +4,10 @@
         {
         "id": 1,
         "title": "Honda Civic Type R",
-        "price":"Giá từ :",
+        "price":"Giá từ: 2.399.000.000 vnđ",
         "description": "BỨC TỐC VƯỢT ĐỈNH.",
         "image": "/assets/civic type R.png",
-        "to":"./following/civic",
+        "to":"./following/civictype",
         "rating": {
           "rate": 2.9,
           "count": 500

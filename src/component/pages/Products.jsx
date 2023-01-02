@@ -47,7 +47,7 @@ export default function Products() {
                         <div class="card-body">
                             <h5 class="card-title">{product.title}</h5>
                             <p class="card-text">{product.price}</p>
-                            <a href={product.to} class="btn btn-primary">Go somewhere</a>
+                            <a href={product.to} class="btn btn-primary">Chi tiết</a>
                         </div>
                     </div>
                     </div>
