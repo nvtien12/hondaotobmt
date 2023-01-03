@@ -39,6 +39,11 @@ export default function Navbar() {
                   Sản Phẩm
                 </Link>
                 <ul className="dropdown-menu">
+                <li>
+                    <a className="dropdown-item"  href="./following/civicr">
+                      Honda Civic Type R
+                    </a>
+                  </li>
                   <li>
                     <a className="dropdown-item"  href="./following/accord">
                       Honda Accrod
@@ -80,7 +85,7 @@ export default function Navbar() {
               <input
                 className="form-control me-1"
                 type="search"
-                placeholder="Search"
+                placeholder="Search.."
                 aria-label="Search"
               />
               <button className="btn btn-outline-success" type="submit">

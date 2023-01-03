@@ -1,24 +1,45 @@
 import React from 'react';
 import './engine.css';
+import Carousel from 'react-bootstrap/Carousel';
 
 export default function Engine() {
     return (
-        <div className="box_pro_engine" id="engine">
-            <div className="card text-bg-dark">
-                <img src="../assets/civic/bg1.jpg" className="card-img" alt="..." />
-                <div className="card-img-overlay">
-                    <div className="card-enginecivic">
-                        <h3 className="card-title">VẬN HÀNH</h3>
-                        <h1 className="text-card">TRẢI NGHIỆM ĐẦY PHẤN KHÍCH</h1>
+        <div className="box_pro_engine" id="vanhanh">
+            <Carousel>
+                <Carousel.Item>
+                    <div className="card text-bg-dark">
+                        <img src="../assets/civic typer/banner-9.jpg" className="card-img" alt="..." />
+                        <div className="card-img-overlay">
+                            <div className="text-enginecivicr">
+                                <img src="../assets/civic typer/logo-type-r-full-black.png" alt="" />
+                                <h2 className="card-enginecivicr">VẬN HÀNH ĐỈNH CAO</h2>
 
-                        <p className="card-text">
-                            Với chất thể thao, Honda Civic mạnh mẽ lướt qua mọi cung đường, đưa bạn qua từng cung bậc
-                            cảm xúc để lái xe trở thành <br /> một niềm đam mê mà chỉ những ai trải nghiệm Honda Civic
-                            mới thật sự thấu hiểu
-                        </p>
+                                <p className="card-text">
+                                    Với động cơ mạnh mẽ và khả năng tăng tốc đầy  uy lực, Honda Civic Type R sẽ thỏa mãn
+                                    niềm đam mê tốc độ cùng hoài bão chinh phục đường đua của chủ sở hữu.
+                                </p>
+                            </div>
+                            <p className="p-textcivicr">*Hình ảnh xe có thể có sự khác biệt so với thực tế</p>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="card text-bg-dark">
+                        <img src="../assets/civic typer/banner-9b.jpg" className="card-img" alt="..." />
+                        <div className="card-img-overlay">
+                            <div className="civicr-banner">
+                                <img src="../assets/civic typer/logo-type-r-full-black.png" alt="" />
+                                <h2 className="card-title">BỨT PHÁ TRÊN MỌI CUNG ĐƯỜNG</h2>
+                                <p className="card-text">
+                                    Là biểu tượng của tốc độ và DNA thể thao <br/>vượt trội, Honda Civic Type R sẽ đem lại
+                                    cho<br/> bạn niềm tự hào của một nhà vô địch.
+                                </p>
+                            </div>
+                            <p className="text-p4b">*Hình ảnh xe có thể có sự khác biệt so với thực tế</p>
+                        </div>
+                    </div>
+                </Carousel.Item>
+            </Carousel>
             <div className="box_content_pro">
                 <figure className="table">
                     <table>
@@ -28,13 +49,15 @@ export default function Engine() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda civic  "
-                                        href="../assets/civic/dong_co.png"
+                                        data-caption="Honda civic typer  "
+                                        href="../assets/civic typer/banner-10a.png"
                                     >
-                                        <img src="../assets/civic/dong_co.png" alt="" />
+                                        <img src="../assets/civic typer/banner-10a.png" alt="" />
                                         <figcaption>
-                                            Động cơ 1.5L VTEC TURBO tăng tốc nhanh và mạnh mẽ tương đương động cơ 2.4L
-                                            thường nhưng tiết kiệm nhiên liệu tương đương động cơ 1.5L thường.
+                                           Trải
+                                            nghiệm cầm lái như một tay đua đích thực với động cơ 2.0L VTEC Turbo cho
+                                            công suất tối đa 315 mã lực tại 6.500 vòng/phút, mô men xoắn cực đại lên tới
+                                            420Nm ở dải vòng tua 2.600-4.000 vòng.
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -42,79 +65,24 @@ export default function Engine() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda civic  "
-                                        href="../assets/civic/hop_so.png"
+                                        data-caption="Honda civic typer  "
+                                        href="../assets/civic typer/can-so.jpg"
                                     >
-                                        <img src="../assets/civic/hop_so.png" alt="" />
-                                        <figcaption>
-                                            Hộp số vô cấp CVT giúp chuyển số mượt mà và mang đến cảm giác tăng tốc thật
-                                            hơn cho người lái.
-                                        </figcaption>
+                                        <img src="../assets/civic typer/can-so.jpg" alt="" />
+                                        <figcaption>Tăng tốc đầy mạnh mẽ với hộp số sàn 6 cấp</figcaption>
                                     </figure>
                                 </td>
                                 <td>
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda civic  "
-                                        href="../assets/civic/khung_xe.png"
+                                        data-caption="Honda civic typer  "
+                                        href="../assets/civic typer/banner-10b.png"
                                     >
-                                        <img src="../assets/civic/khung_xe.png" alt="" />
+                                        <img src="../assets/civic typer/banner-10b.png" alt="" />
                                         <figcaption>
-                                            Được cải tiến cấu trúc và ứng dụng vật liệu cường độ cao, hệ thống khung gầm
-                                            mới cứng chắc mà vẫn giữ được trọng lượng nhẹ, giúp cải thiện khả năng đánh
-                                            lái và nâng cao sự thoải mái khi đi xe.
-                                        </figcaption>
-                                    </figure>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </figure>
-                <figure className="table">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <figure
-                                        className="image"
-                                        data-fancybox="gallery_content"
-                                        data-caption="Honda civic  "
-                                        href="../assets/civic/lay_chuyen_so.png"
-                                    >
-                                        <img src="../assets/civic/lay_chuyen_so.png" alt="" />
-                                        <figcaption>
-                                            Lẫy chuyển số trên vô-lăng cho trải nghiệm lái thể thao và bứt phá mạnh mẽ
-                                            (RS).
-                                        </figcaption>
-                                    </figure>
-                                </td>
-                                <td>
-                                    <figure
-                                        className="image"
-                                        data-fancybox="gallery_content"
-                                        data-caption="Honda civic  "
-                                        href="../assets/civic/lai_tro_luc.png"
-                                    >
-                                        <img src="../assets/civic/lai_tro_luc.png" alt="" />
-                                        <figcaption>
-                                            Hệ thống lái trợ lực điện mang đến phản hồi nhạy và chính xác, để mỗi chuyển
-                                            động của vô-lăng đều nhẹ nhàng dù vào cua hay chuyển hướng.
-                                        </figcaption>
-                                    </figure>
-                                </td>
-                                <td>
-                                    <figure
-                                        className="image"
-                                        data-fancybox="gallery_content"
-                                        data-caption="Honda civic  "
-                                        href="../assets/civic/econ_mode.png"
-                                    >
-                                        <img src="../assets/civic/econ_mode.png" alt="" />
-                                        <figcaption>
-                                            Chế độ lái tiết kiệm nhiên liệu ECON Mode điều chỉnh hệ thống làm việc của
-                                            động cơ, hộp số và điều hòa không khí để giảm thiểu tiêu hao nhiên liệu
-                                            không cần thiết.
+                                            Hệ thống phanh Brembo giúp dừng xe an toàn ngay cả khi phanh đột ngột ở tốc
+                                            độ cao; đĩa phanh liên tục được làm mát thông qua các luồng gió đi qua xe
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -130,41 +98,77 @@ export default function Engine() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda civic  "
-                                        href="../assets/civic/sport_mode.png"
+                                        data-caption="Honda civic typer  "
+                                        href="../assets/civic typer/banner-10d.jpg"
                                     >
-                                        <img src="../assets/civic/sport_mode.png" alt="" />
-                                        <figcaption>
-                                            Chế độ lái thể thao Sport Mode giúp xe tăng tốc dễ dàng bằng cách tăng cường
-                                            độ nhạy chân ga, mang tới trải nghiệm lái thể thao đầy hứng khởi cho người
-                                            lái (RS).
-                                        </figcaption>
-                                    </figure>
-                                </td>
-                                <td>
-                                    <figure
-                                        className="image"
-                                        data-fancybox="gallery_content"
-                                        data-caption="Honda civic  "
-                                        href="../assets/civic/normal_mode.png"
-                                    >
-                                        <img src="../assets/civic/normal_mode.png" alt="" />
-                                        <figcaption>
-                                            Chế độ lái thường Normal Mode với các thiết lập được tự động cài đặt ở mức
-                                            cân bằng, giúp xe vận hành êm ái và mượt mà.
-                                        </figcaption>
-                                    </figure>
-                                </td>
-                                <td>
-                                    <figure
-                                        className="image"
-                                        data-fancybox="gallery_content"
-                                        data-caption="Honda civic  "
-                                        href="../assets/civic/che_do_lai.png"
-                                    >
-                                        <img src="../assets/civic/che_do_lai.png" alt="" />
+                                        <img src="../assets/civic typer/banner-10d.jpg" alt="" />
                                         <figcaption>
                                             Điều chỉnh chế độ lái dễ dàng tại khu vực điều khiển trung tâm.
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda civic typer  "
+                                        href="../assets/civic typer/che-do-comport.jpg"
+                                    >
+                                        <img src="../assets/civic typer/che-do-comport.jpg" alt="" />
+                                        <figcaption>
+                                            Chế độ Comfort - Dành cho lái xe thông thường và hàng ngày, cho cảm giác lái
+                                            mượt mà và êm ái.
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda civic typer  "
+                                        href="../assets/civic typer/che-do-sport.jpg"
+                                    >
+                                        <img src="../assets/civic typer/che-do-sport.jpg" alt="" />
+                                        <figcaption>
+                                            Chế độ Sport - Cho cảm giác lái thể thao đầy thú vị trên những cung đường
+                                            khúc khuỷu.
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </figure>
+                <figure className="table">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda civic typer  "
+                                        href="../assets/civic typer/che-do-r.jpg"
+                                    >
+                                        <img src="../assets/civic typer/che-do-r.jpg" alt="" />
+                                        <figcaption>
+                                            Chế độ +R - Chế độ lái cho khả năng tăng tốc tối đa, âm thanh động cơ mạnh
+                                            mẽ giúp bạn tự tin chinh phục đường đua.
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda civic typer  "
+                                        href="../assets/civic typer/che-do-ca-nhan.jpg"
+                                    >
+                                        <img src="../assets/civic typer/che-do-ca-nhan.jpg" alt="" />
+                                        <figcaption>
+                                            Chế độ Individual - Cho phép tùy chỉnh 6 thông số (động cơ/ hệ thống lái/ hệ
+                                            thống treo/ âm thanh động cơ/ vòng tua máy/ đồng hồ đo) theo ý thích.Các
+                                            thông số tùy chỉnh sẽ giữ nguyên ngay cả khi người sử dụng tắt máy.
                                         </figcaption>
                                     </figure>
                                 </td>

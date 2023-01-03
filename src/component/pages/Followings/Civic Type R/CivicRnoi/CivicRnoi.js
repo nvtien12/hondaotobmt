@@ -1,19 +1,19 @@
 import React from 'react';
-import './civicnoi.scss';
+import './civicrnoi.scss';
 
-export default function Civicnoi() {
+export default function CivicRnoi() {
     return (
         <div className="box_pro_noi_that" id="noithat">
             <div className="card text-bg-dark">
-                <img src="../assets/civic/bg_1.jpg" className="card-img" alt="..." />
+                <img src="../assets/civic typer/banner-7.jpg" className="card-img" alt="..." />
                 <div className="card-img-overlay">
-                    <div className="overlay-civicnoi">
-                        <h3 className="card-title">NỘI THẤT</h3>
-                        <h1 className="text-card">TOẢ SÁNG KHÔNG GIAN TIỆN NGHI</h1>
+                    <div className="overlay-civicrnoi">
+                        <img src="../assets/civic typer/logo-type-r-full-black.png" alt="" />
+                        <h1 className="text-card">KHÔNG GIAN BỨT PHÁ</h1>
 
                         <p className="card-text">
-                            Rộng rãi, tiện nghi cùng các trang bị hiện đại, Honda Civic <br/> cho bạn và gia đình tận hưởng sự
-                            thư thái vượt xa mong <br/> đợi trên mọi hành trình.
+                            Khoang lái thể thao tạo ấn tượng thị giác mạnh mẽ <br/> với sự kết hợp màu sắc tương phản đầy nổi
+                            bật, <br/> đường nét thiết kế cá tính và chất liệu nội thất cao cấp.
                         </p>
                     </div>
                 </div>
@@ -27,15 +27,13 @@ export default function Civicnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/connect_phone.png"
+                                        data-caption="Honda Civic typer - "
+                                        href="../assets/civic typer/banner-8a.jpg"
                                     >
-                                        <img src="../assets/civic/connect_phone.png" alt="" />
+                                        <img src="../assets/civic typer/banner-8a.jpg" alt="" />
                                         <figcaption>
-                                            Màn hình cảm ứng 9 inch độ phân giải cao cho hình ảnh hiển thị mượt mà và
-                                            sắc nét. Hệ thống hỗ trợ kết nối không dây với điện thoại giúp bạn dễ dàng
-                                            nghe nhạc, nhắn tin, xem bản đồ,… và tận hưởng hành trình một cách trọn vẹn
-                                            (RS).
+                                            Chế độ sạc không dây tiện lợi. Ghế lái da lộn màu đỏ đậm chất thể thao, mang
+                                            lại chất "đua" đầy phần khấn khích.
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -43,16 +41,13 @@ export default function Civicnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/cum_dong_ho.png"
+                                        data-caption="Honda Civic typer - "
+                                        href="../assets/civic typer/banner-8b.png"
                                     >
-                                        <img src="../assets/civic/cum_dong_ho.png" alt="" />
+                                        <img src="../assets/civic typer/banner-8b.png" alt="" />
                                         <figcaption>
-                                            Cụm đồng hồ thông số điện tử 10.2 inch hiển thị màu sắc nét và được bố trí
-                                            thuận tiện với tầm mắt người lái (RS). Bảng đồng hồ trung tâm có thể tùy
-                                            chọn hiển thị thông tin bài nhạc, tình trạng cửa, thông số hành trình,… qua
-                                            nút bấm trên vô-lăng, đảm bảo sự tiện lợi mà vẫn giữ được sự tập trung tối
-                                            đa khi cầm lái.
+                                            Vô lăng bọc da lộn kết hợp các đường chỉ đỏ, cùng cụm đồng hồ digital 10.2
+                                            inch hiển thị sắc nét.
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -60,14 +55,11 @@ export default function Civicnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/vo_lang.png"
+                                        data-caption="Honda Civic typer - "
+                                        href="../assets/civic typer/banner-8c.png"
                                     >
-                                        <img src="../assets/civic/vo_lang.png" alt="" />
-                                        <figcaption>
-                                            Vô-lăng tích hợp nút điều khiển đa thông tin, âm thanh, đàm thoại rảnh tay
-                                            và ra lệnh bằng giọng nói.
-                                        </figcaption>
+                                        <img src="../assets/civic typer/banner-8c.png" alt="" />
+                                        <figcaption>Bộ bàn đạp nổi bật trên nền thảm màu đỏ.</figcaption>
                                     </figure>
                                 </td>
                             </tr>
@@ -82,14 +74,13 @@ export default function Civicnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/he_thong_loa.png"
+                                        data-caption="Honda Civic typer - "
+                                        href="../assets/civic typer/seri-rieng-biet.jpg"
                                     >
-                                        <img src="../assets/civic/he_thong_loa.png" alt="" />
+                                        <img src="../assets/civic typer/seri-rieng-biet.jpg" alt="" />
                                         <figcaption>
-                                            Hệ thống 12 loa cao cấp BOSE với công nghệ âm thanh vòm mang lại trải nghiệm
-                                            âm thanh đa chiều sống động và chân thật, để bạn đắm chìm với những bản nhạc
-                                            tuyệt hảo trên mọi chuyến hành trình (RS).
+                                            Mỗi chiếc xe Honda Civic Type R sở hữu một số se-ri riêng biệt đặt trên lưới
+                                            điều hòa, thể hiện tính độc nhất của chiếc xe.
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -97,11 +88,49 @@ export default function Civicnoi() {
                                     <figure
                                         className="image"
                                         data-fancybox="gallery_content"
-                                        data-caption="Honda Civic - "
-                                        href="../assets/civic/dieu_hoa.png"
+                                        data-caption="Honda Civic typer - "
+                                        href="../assets/civic typer/man-hinh-9-inch.jpg"
                                     >
-                                        <img src="../assets/civic/dieu_hoa.png" alt="" />
-                                        <figcaption>Hệ thống điều hòa tự động 2 vùng tiện lợi (RS).</figcaption>
+                                        <img src="../assets/civic typer/man-hinh-9-inch.jpg" alt="" />
+                                        <figcaption>
+                                            Màn hình cảm ứng 9 inch với độ phân giải cao, cho hình ảnh hiển thị sắc nét
+                                            và mượt mà, hỗ trợ kết nối không dây với điện thoại thông minh để hành trình
+                                            luôn trọn vẹn cảm hứng.
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda Civic typer - "
+                                        href="../assets/civic typer/camera-lui.jpg"
+                                    >
+                                        <img src="../assets/civic typer/camera-lui.jpg" alt="" />
+                                        <figcaption>
+                                            Camera lùi 3 góc quay là trợ thủ đắc lực trong các tình huống lùi, dừng, đỗ
+                                            xe.
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </figure>
+
+                <figure className="table">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda Civic Type R - "
+                                        href="../assets/civic typer/sac-khong-day.jpg"
+                                    >
+                                        <img src="../assets/civic typer/sac-khong-day.jpg" alt="" />
+                                        <figcaption>Chế độ sạc không dây tiện lợi.</figcaption>
                                     </figure>
                                 </td>
                             </tr>

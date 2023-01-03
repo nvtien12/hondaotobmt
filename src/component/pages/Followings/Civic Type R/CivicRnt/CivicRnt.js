@@ -1,6 +1,6 @@
 import React from 'react';
 import './civicrnt.css';
-import Images from './Slider';
+
 
 export default function CivicRvnt() {
     return (
@@ -9,8 +9,8 @@ export default function CivicRvnt() {
                 <img src="../assets/civic typer/banner-5a.jpg" alt="" />
 
                 <div className="card-img-overlay">
-                    <div className="card-civicrnt">
-                        <img src="..asstes/civic typer/logo-type-r-full-black.png" alt="" />
+                    <div className="cardcivicrnt">
+                    <img src="../assets/civic typer/logo-type-r-full-black.png" alt="" />
                         <h2 className="text-card">DẤU ẤN ĐẬM CHẤT THỂ THAO</h2>
 
                         <p className="card-text">
@@ -18,39 +18,74 @@ export default function CivicRvnt() {
                             Type R sở hữu diện mạo thể thao đầy
                             <br /> mãn nhãn và cuốn hút.
                         </p>
-                        <p className="civicrnt-p">*Hình ảnh xe có thể có sự khác biệt so với thực tế</p>
                     </div>
+                        <p className="civicrnt-p">*Hình ảnh xe có thể có sự khác biệt so với thực tế</p>
                 </div>
             </div>
             <div className="box_content_pro">
                 <figure className="table">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda Civic Type R - "
+                                        href="../assets/civic typer/section6a.jpg"
+                                    >
+                                        <img src="../assets/civic typer/section6a.jpg" alt="" />
+                                        <figcaption>
+                                            Cụm ba ống xả đầy mạnh mẽ với những âm thanh uy lực. Mặt trước xe nổi bật
+                                            với lưới tản nhiệt tổ ong cùng logo chữ H trên nền đỏ cá tính, đặc trưng ghi
+                                            dấu tinh thần Type R.
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda Civic Type R - "
+                                        href="../assets/civic typer/section6b.jpg"
+                                    >
+                                        <img src="../assets/civic typer/section6b.jpg" alt="" />
+                                        <figcaption>
+                                            La-zăng 19 inch phối màu đỏ-đen cùng hệ thống phanh Brembo nổi tiếng, thu
+                                            hút mọi ánh nhìn dù là trên đường đua hay nơi thành thị.
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <figure
+                                        className="image"
+                                        data-fancybox="gallery_content"
+                                        data-caption="Honda Civic Type R - "
+                                        href="../assets/civic typer/section6c.jpg"
+                                    >
+                                        <img src="../assets/civic typer/section6c.jpg" alt="" />
+                                        <figcaption>Cụm ba ống xả đầy mạnh mẽ với những âm thanh uy lực.</figcaption>
+                                    </figure>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </figure>
+                <div className="box_content_pro">
                     <figure className="table">
                         <table>
                             <tbody>
                                 <tr>
                                     <td>
                                         <figure
-                                            className="imagecivicr"
+                                            className="image"
                                             data-fancybox="gallery_content"
-                                            data-caption="Honda Civic Types R - "
-                                            href="../assets/civic typer/section6a.jpg"
+                                            data-caption="Honda Civic Type R - "
+                                            href="../assets/civic typer/section6d.png"
                                         >
-                                            <img src="../assets/civic typer/section6a.jpg" className="" />
+                                            <img src="../assets/civic typer/section6d.png" alt="" />
                                             <figcaption>
-                                            La-zăng 18 inch đa chấu tạo sự mạnh mẽ và thời trang cho chiếc xe (RS)
-                                            </figcaption>
-                                        </figure>
-                                    </td>
-                                    <td>
-                                        <figure
-                                            className="imagecivictype"
-                                            data-fancybox="gallery_content"
-                                            data-caption="Honda Civic Types R - "
-                                            href="../assets/civic typer/section6b.jpg"
-                                        >
-                                            <img src="../assets/civic typer/section6b.jpg" className='' />
-                                            <figcaption>
-                                            La-zăng 19 inch phối màu đỏ-đen cùng hệ thống phanh Brembo nổi tiếng, thu hút mọi ánh nhìn dù là trên đường đua hay nơi thành thị.
+                                            Cụm ba ống xả đầy mạnh mẽ với những âm thanh uy lực.
                                             </figcaption>
                                         </figure>
                                     </td>
@@ -58,9 +93,9 @@ export default function CivicRvnt() {
                             </tbody>
                         </table>
                     </figure>
-                </figure>
+                </div>
             </div>
-            <Images />
+            
         </div>
     );
 }

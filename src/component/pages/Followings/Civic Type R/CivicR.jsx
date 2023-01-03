@@ -5,6 +5,10 @@ import './civicr.css';
 
 import Footers from '../../Footers';
 import CivicRvnt from './CivicRnt/CivicRnt';
+import CivicRnoi from './CivicRnoi/CivicRnoi';
+import Engine from './CivicRvanhanh/Engine';
+import Safe from './CivicRsafe/Safe';
+import Specifications from './Specifications/Specifications';
 
 export default function CivicR() {
     return (
@@ -21,14 +25,15 @@ export default function CivicR() {
 
                         <p className="card-text">
                             
-                        Dù đã ở đỉnh cao, chủ nhân Honda Civic Type R <br/> vẫn không ngừng tăng tốc để chinh phục đỉnh mới <br/>, vinh quang mới và trở thành phiên bản thành công hơn của chính mình.
+                        Dù đã ở đỉnh cao, chủ nhân Honda Civic Type R <br/> vẫn không ngừng tăng tốc để chinh phục đỉnh mới, <br/> vinh quang mới và trở thành phiên bản thành công hơn của chính mình.
                             
                         </p>
                         
                     </div>
                 </div>
             </div>
-            <Carousel id="giá trị nổi bật">
+            <div id="giatrinoibat">
+            <Carousel >
                 <Carousel.Item>
             <div className="card text-bg-dark">
             <img src="../assets/civic typer/banner-4a.png" className="card-img" alt="..."/>
@@ -63,8 +68,12 @@ export default function CivicR() {
             </div>
             </Carousel.Item>
             </Carousel>
+            </div>
             <CivicRvnt/>
-          
+            <CivicRnoi/>
+            <Engine/>
+            <Safe/>
+            <Specifications/>
             <Footers/>
         </div>
     );

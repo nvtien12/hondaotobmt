@@ -28,7 +28,7 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#thongdiep">
+                <a className="nav-link active" aria-current="page" href="#giatrinoibat">
                   Giá Trị Nổi Bật 
                 </a>
               </li>
@@ -48,14 +48,21 @@ export default function Navbar() {
                   Nội Thất
                 </a>
               </li>
+              <li className="nav-item ">
+                <a
+                  className="nav-link"
+              
+                  href="#vanhanh"
+                >
+                 Vận Hành
+                </a>
+                
+              </li>
+              
               <li className="nav-item">
                 <a className="nav-link" href="#antoan">An Toàn</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#pk">
-                  Phụ Kiện
-                </a>
-              </li>
+              
             </ul>
             
           </div>
