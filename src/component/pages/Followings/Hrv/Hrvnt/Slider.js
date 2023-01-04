@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ThreeSixty from "react-360-view";
-
+import './slider.css';
 
 
 
@@ -96,7 +96,7 @@ export default class Images extends Component {
               </div>
             </div>
           </div>
-          <div className="col-4 pt-20">
+          <div className="col-5 pt-20">
             <div className="card">
               <div className="card-header text-primary">MÀU XE</div>
               <ul className="list-group list-group-flush">
@@ -106,7 +106,7 @@ export default class Images extends Component {
                 >
                   <div className="row">
                     <div className="col-2">
-                      <img src="../assets/hrv/black-dot.png" boderRadius="50%" width="60px" alt="" />
+                      <img src="../assets/hrv/black-dot.png" boderRadius="50%" width="40px" alt="" />
                     </div>
                     <div className="col-10 d-flex align-items-center">
                     ĐEN ÁNH ĐỘC TÔN
@@ -119,7 +119,7 @@ export default class Images extends Component {
                 >
                   <div className="row">
                     <div className="col-2">
-                      <img src="../assets/hrv/red-dot.png" boderRadius="50%"  width="60px" alt="" />
+                      <img src="../assets/hrv/red-dot.png" boderRadius="50%"  width="40px" alt="" />
                     </div>
                     <div className="col-10 d-flex align-items-center">
                       ĐỎ CÁ TÍNH
@@ -132,7 +132,7 @@ export default class Images extends Component {
                 >
                   <div className="row">
                     <div className="col-2">
-                      <img src="../assets/hrv/silver-dot.png" boderRadius="50%"  width="60px" alt="" />
+                      <img src="../assets/hrv/silver-dot.png" boderRadius="50%"  width="40px" alt="" />
                     </div>
                     <div className="col-10 d-flex align-items-center">
                     XÁM PHONG CÁCH
@@ -145,7 +145,7 @@ export default class Images extends Component {
                 >
                   <div className="row">
                     <div className="col-2">
-                      <img src="../assets/hrv/white-dot.png" boderRadius="50%" width="60px" alt="" />
+                      <img src="../assets/hrv/white-dot.png" boderRadius="50%" width="40px" alt="" />
                     </div>
                     <div className="col-10 d-flex align-items-center">
                     TRẮNG NGỌC QUÝ PHÁI
@@ -158,7 +158,7 @@ export default class Images extends Component {
                 >
                   <div className="row">
                     <div className="col-2">
-                      <img src="../assets/hrv/white-circle.png" boderRadius="50%"  width="60px" alt="" />
+                      <img src="../assets/hrv/white-circle.png" boderRadius="50%"  width="40px" alt="" />
                     </div>
                     <div className="col-10 d-flex align-items-center">
                      TRẮNG BẠC THỜI TRANG

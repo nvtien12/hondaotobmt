@@ -7,7 +7,8 @@
         "price":"Giá từ: 2.399.000.000 vnđ",
         "description": "BỨC TỐC VƯỢT ĐỈNH.",
         "image": "/assets/civic type R.png",
-        "to":"./following/civictype",
+        "to":"./following/civicr",
+        "test":"./civicr",
         "rating": {
           "rate": 2.9,
           "count": 500
@@ -21,6 +22,7 @@
           "image": "/assets/accord.png",
           "to":"./following/accord",
           "background-img":"./assets/background-full.jpg",
+          "test":"./accord",
           "rating": {
             "rate": 3.9,
             "count": 500
@@ -33,7 +35,7 @@
           "description": "KIẾN TẠO CHUẨN MỰC HOÀN HẢO.",
           "image": "/assets/civic.png",
           "to":"./following/civic",
-          
+          "test":"./civic",
           "rating": {
             "rate": 4.1,
             "count": 400
@@ -46,7 +48,7 @@
           "description": "KHAI PHÁ GIÁC QUAN THỨ 6.",
           "image": "/assets/crv.png",
           "background-image": "./assets/crv/wake-up-senses.jpg",
-         
+          "test":"./crv",
           "to":"./following/crv",
           "rating": {
             "rate": 4.7,
@@ -60,6 +62,7 @@
           "description": "SẴN SÀNG CHO MỌI BẤT NGỜ.",
           "image": "/assets/hrv.png",
           "to":"./following/hrv",
+          "test":"/hrv",
           "rating": {
             "rate": 2.1,
             "count": 430
@@ -72,6 +75,7 @@
           "description": "MẠNH MẼ TRẢI LỐI THÀNH CÔNG.",
           "image": "/assets/city.png",
           "to":"./following/city",
+          "test":"./city",
           "rating": {
             "rate": 4.6,
             "count": 400

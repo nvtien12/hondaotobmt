@@ -3,10 +3,11 @@
 }
 
 .img-hrvengine {
-
+    max-width: 100%;
     filter: brightness(80%);
 
 }
+
 
 .engine {
     width: 88%;
@@ -19,7 +20,9 @@
         text-align: center;
         margin-top: 20px;
     }
-
+    .text-card{
+       color: red;
+    }
     .img-hrvengine {
         max-width: 100%;
         filter: brightness(80%);

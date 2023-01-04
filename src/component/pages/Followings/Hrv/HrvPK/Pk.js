@@ -8,7 +8,7 @@ export default function Pk() {
                 <img src="../assets/hrv/bg_new_1.png" className="img-hrvpk" alt="..." />
                 <div className="card-img-overlay">
                     <div className="card-hrvpk">
-                        <h3>PHỤ KIỆN</h3>
+                        <h3 >PHỤ KIỆN</h3>
                         <h1>TUỲ CHỌN CHÍNH HÃNG</h1>
                         <p>Cảm nhận sự tiện nghi tối đa với bộ phụ kiện cao cấp. Điểm tô cho <br/> chiếc Honda HR-V
                                     thêm sự tinh tế và tiện lợi trên mọi chặng đường

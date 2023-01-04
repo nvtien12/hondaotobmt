@@ -29,7 +29,7 @@ export default function Hrv() {
                         <h4 className="text-card">LỰA CHỌN HOÀN HẢO CHO CUỘC SỐNG ĐA NHIỆM</h4>
 
                         <p className="card-text">
-                            Tạo tác bởi sự hoàn hảo, Honda HR-V sẽ đồng hành với bạn qua mọi cung bậc cảm xúc, từ chuyến
+                            Tạo tác bởi sự hoàn hảo, Honda HR-V sẽ đồng hành với bạn qua mọi cung bậc cảm xúc,  từ chuyến
                             đi ấm áp với gia đình đến những trải nghiệm đầy hứng khởi cùng bè bạn. Đáp ứng mọi nhu cầu,
                             Honda HR-V khắc họa cuộc sống đầy bản lĩnh của chủ nhân
                         </p>
