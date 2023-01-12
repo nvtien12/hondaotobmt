@@ -10,7 +10,7 @@ export default function Products() {
     useEffect(() => {
         const getProducts = async() =>{
             setLoading(true);
-            const response =await fetch("https://raw.githubusercontent.com/nvtien12/my-react/main/database/db.json");
+            const response =await fetch("http://localhost:8000/Honda")
             if(componentMounted){
                 setData(await response.clone().json());
                 setFilter(await response.json());
