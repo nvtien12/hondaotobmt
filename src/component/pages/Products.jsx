@@ -9,7 +9,7 @@ export default function Products() {
     const [loading, setLoading] = useState(false);
     let componentMounted = true;
 
-    useEffect(() => {
+    useEffect(() => {   
         const getProducts = async() =>{
             setLoading(true);
             const response =await fetch("http://localhost:8000/Honda")
