@@ -1,27 +1,20 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect} from 'react';
+
+
 
 export default function Products() {
 
     const [data, setData] = useState([]);
-    const [filter, setFilter] = useState(data);
-    const [loading, setLoading] = useState(false);
+    const fetchProducts = () => {
+        return fetch("https://raw.githubusercontent.com/nvtien12/hondaotobmt/main/database/db.json")
+              .then((response) => response.json())
+              .then((product) => setUser(product));
+      }
+   
     let componentMounted = true;
 
     useEffect(() => {
-        const getProducts = async() =>{
-            setLoading(true);
-            const response =await fetch("http://localhost:8000/Honda")
-            if(componentMounted){
-                setData(await response.clone().json());
-                setFilter(await response.json());
-                setLoading(false);
-                console.log(filter)
-            }
-            return () =>{
-                componentMounted =false;
-            }
-        }
-      getProducts();
+      fetchProducts();
     
      
     }, []);
