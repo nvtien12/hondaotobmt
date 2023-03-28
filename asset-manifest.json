@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/hondaotobmt/static/css/main.7c143d96.css",
+    "main.js": "/hondaotobmt/static/js/main.8cc881cc.js",
+    "static/js/496.0dcf7eb0.chunk.js": "/hondaotobmt/static/js/496.0dcf7eb0.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/hondaotobmt/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/hondaotobmt/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/hondaotobmt/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/background-full.jpg": "/hondaotobmt/static/media/background-full.0f974b16f238fb7699e0.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/hondaotobmt/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/hondaotobmt/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/hondaotobmt/index.html",
+    "main.7c143d96.css.map": "/hondaotobmt/static/css/main.7c143d96.css.map",
+    "main.8cc881cc.js.map": "/hondaotobmt/static/js/main.8cc881cc.js.map",
+    "496.0dcf7eb0.chunk.js.map": "/hondaotobmt/static/js/496.0dcf7eb0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c143d96.css",
+    "static/js/main.8cc881cc.js"
+  ]
+}
